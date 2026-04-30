@@ -1,0 +1,13 @@
+# robots.txt pour IJ Genesys
+# https://ijgenesys.com
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://ijgenesys.com/sitemap.xml
+
+# Crawl-delay pour éviter surcharge
+Crawl-delay: 1

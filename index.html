@@ -1,0 +1,2265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Création site web Paris | IJ Genesys — Studio digital pour commerces</title>
+<meta name="description" content="Création de sites web sur-mesure pour commerces parisiens. Coiffeurs, restaurants, artisans. SEO local, design premium. Devis gratuit sous 48h.">
+<meta name="keywords" content="création site web Paris, agence web Paris, freelance web Paris, site coiffeur Paris, site restaurant Paris, SEO local Paris, IJ Genesys">
+<meta name="author" content="IJ Genesys - Igor & Jules">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="geo.region" content="FR-75">
+<meta name="geo.placename" content="Paris">
+<meta name="geo.position" content="48.8566;2.3522">
+<meta name="ICBM" content="48.8566, 2.3522">
+<meta name="language" content="French">
+<meta http-equiv="content-language" content="fr-FR">
+<link rel="canonical" href="https://ijgenesys.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Création site web Paris | IJ Genesys — Studio digital">
+<meta property="og:description" content="Sites web sur-mesure pour commerces parisiens. SEO local, design premium. Devis gratuit sous 48h.">
+<meta property="og:url" content="https://ijgenesys.com/">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Création site web Paris | IJ Genesys">
+<meta name="twitter:description" content="Studio digital pour commerces parisiens. Devis 48h.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://ijgenesys.com/#organization",
+      "name": "IJ Genesys",
+      "description": "Studio digital fondé à Paris en 2026, spécialisé dans la création de sites web sur-mesure pour commerces parisiens",
+      "url": "https://ijgenesys.com",
+      "email": "contact@ijgenesys.com",
+      "telephone": "+33-6-47-73-84-03",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Paris",
+        "addressRegion": "Île-de-France",
+        "postalCode": "75001",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "founder": [
+        {"@type": "Person", "name": "Igor", "jobTitle": "Co-fondateur · Design & Stratégie"},
+        {"@type": "Person", "name": "Jules", "jobTitle": "Co-fondateur · Développement & SEO"}
+      ],
+      "foundingDate": "2026",
+      "areaServed": [
+        {"@type": "City", "name": "Paris"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte un site web pour un commerce parisien ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nos formules vont de 1490€ à 3990€, plus une maintenance mensuelle entre 39€ et 89€."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En combien de temps mon site sera-t-il en ligne ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entre 3 et 6 semaines selon la formule choisie."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="%231A2B4A" rx="18"/><rect x="22" y="22" width="56" height="56" rx="14" fill="none" stroke="%23FF6B5B" stroke-width="3"/><line x1="22" y1="50" x2="78" y2="50" stroke="%23FF6B5B" stroke-width="2.5"/><line x1="50" y1="22" x2="50" y2="78" stroke="%23FF6B5B" stroke-width="2.5"/><circle cx="50" cy="50" r="6" fill="%23FF6B5B"/></svg>'>
+
+<style>
+/* ============================================================
+   RESET & VARIABLES
+   ============================================================ */
+:root {
+  --bleu: #1A2B4A;
+  --bleu-soft: #2A3D60;
+  --bleu-deep: #0E1A33;
+  --corail: #FF6B5B;
+  --corail-soft: #FF8F82;
+  --corail-pale: #FFE5DD;
+  --peche: #FFD4C9;
+  --peche-pale: #FFF1EC;
+  --lavande: #9B8AB5;
+  --lavande-pale: #E8E2F0;
+  --creme: #FAF6F1;
+  --gris: #6B7280;
+  --gris-clair: #9CA3AF;
+  --line: rgba(255,255,255,0.08);
+  --display: 'Space Grotesk', sans-serif;
+  --serif: 'Cormorant', serif;
+  --sans: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FIX OVERFLOW : empêche tout débordement horizontal */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bleu);
+  color: var(--creme);
+  font-family: var(--sans);
+  line-height: 1.6;
+  position: relative;
+}
+
+img { max-width: 100%; display: block; height: auto; }
+
+/* ============================================================
+   NAVIGATION (FIX : z-index élevé + pointer-events)
+   ============================================================ */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000; /* TRÈS HAUT pour être au-dessus de tout */
+  padding: 20px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s ease;
+  background: transparent;
+  pointer-events: auto; /* FIX : s'assurer que les clics passent */
+}
+
+.nav-bar.scrolled {
+  background: rgba(26, 43, 74, 0.95);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 14px 48px;
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 1001;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-logo-symbol {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.nav-logo-text {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--creme);
+  letter-spacing: -0.01em;
+}
+
+.nav-logo-text .ij {
+  color: var(--corail);
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  z-index: 1001;
+  position: relative;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu a {
+  color: var(--creme);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 0;
+}
+
+.nav-menu a:hover {
+  color: var(--corail);
+}
+
+.nav-cta {
+  padding: 12px 24px;
+  background: var(--corail);
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  z-index: 1001;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-cta:hover {
+  background: var(--corail-soft);
+  transform: translateY(-1px);
+}
+
+.nav-burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+  z-index: 1001;
+  position: relative;
+}
+
+.nav-burger span {
+  width: 24px;
+  height: 2px;
+  background: var(--creme);
+  transition: 0.3s;
+  display: block;
+}
+
+/* ============================================================
+   HERO (FIX : overflow hidden + max-width)
+   ============================================================ */
+.hero {
+  min-height: 100vh;
+  padding: 140px 48px 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Effets décoratifs CONTENUS pour ne pas déborder */
+.hero-glow-1 {
+  position: absolute;
+  top: -300px;
+  right: -200px;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255, 107, 91, 0.18) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-glow-2 {
+  position: absolute;
+  bottom: -200px;
+  left: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(155, 138, 181, 0.15) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 20px;
+  background: rgba(255, 107, 91, 0.12);
+  border: 1px solid rgba(255, 107, 91, 0.3);
+  border-radius: 999px;
+  margin-bottom: 32px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--corail);
+  font-weight: 500;
+}
+
+.hero-badge::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: var(--corail);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 12px rgba(255, 107, 91, 0.6);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.hero h1 {
+  font-family: var(--display);
+  font-size: clamp(48px, 8vw, 120px);
+  line-height: 0.95;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  margin-bottom: 32px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.hero h1 .gradient {
+  background: linear-gradient(135deg, var(--corail) 0%, var(--corail-soft) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero h1 em {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero-sub {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(18px, 2vw, 24px);
+  color: var(--peche);
+  max-width: 700px;
+  margin-bottom: 48px;
+  line-height: 1.5;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.btn-primary {
+  background: var(--corail);
+  color: white;
+  padding: 18px 36px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 24px rgba(255, 107, 91, 0.35);
+  border: none;
+  cursor: pointer;
+  font-family: var(--sans);
+}
+
+.btn-primary:hover {
+  background: var(--corail-soft);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(255, 107, 91, 0.5);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--creme);
+  padding: 18px 36px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 212, 201, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 212, 201, 0.08);
+  border-color: var(--peche);
+}
+
+.hero-trust {
+  padding-top: 40px;
+  border-top: 1px solid var(--line);
+  max-width: 800px;
+}
+
+.trust-label {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--corail);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.trust-items {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  font-family: var(--serif);
+  font-size: 18px;
+  color: var(--peche);
+  font-style: italic;
+}
+
+.trust-items span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.trust-items span::before {
+  content: '✦';
+  color: var(--corail);
+  font-style: normal;
+}
+
+/* ============================================================
+   MARQUEE (FIX : overflow hidden strict)
+   ============================================================ */
+.marquee {
+  background: var(--corail);
+  color: var(--bleu);
+  padding: 24px 0;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 60px;
+  animation: marquee-scroll 40s linear infinite;
+  white-space: nowrap;
+  width: max-content;
+}
+
+@keyframes marquee-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-item {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.marquee-item::after {
+  content: '✦';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* ============================================================
+   SECTIONS GÉNÉRIQUES
+   ============================================================ */
+.section {
+  padding: 100px 48px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.section-eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--corail);
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: var(--corail);
+}
+
+.section-title {
+  font-family: var(--display);
+  font-size: clamp(36px, 5vw, 72px);
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  word-wrap: break-word;
+}
+
+.section-title em {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--corail);
+}
+
+.section-title .gradient {
+  background: linear-gradient(135deg, var(--corail) 0%, var(--corail-soft) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ============================================================
+   ABOUT (claire)
+   ============================================================ */
+.about {
+  background: var(--peche-pale);
+  color: var(--bleu);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.about-text p {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--bleu-soft);
+  margin-bottom: 20px;
+}
+
+.about-text p:first-of-type {
+  font-size: 24px;
+  color: var(--bleu);
+  font-style: italic;
+}
+
+.about-visual {
+  background: var(--bleu);
+  border-radius: 24px;
+  padding: 60px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-visual::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(255, 107, 91, 0.25) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.about-visual-eyebrow {
+  font-family: var(--display);
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--corail);
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.founders-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.founder {
+  text-align: center;
+}
+
+.founder-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--corail) 0%, var(--corail-soft) 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-family: var(--display);
+  font-size: 36px;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(255, 107, 91, 0.3);
+}
+
+.founder-name {
+  font-family: var(--display);
+  font-size: 20px;
+  color: var(--creme);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.founder-role {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--corail);
+  font-weight: 500;
+}
+
+/* ============================================================
+   SERVICES
+   ============================================================ */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.service-card {
+  background: var(--bleu-soft);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 36px 28px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--corail);
+}
+
+.service-num {
+  font-family: var(--display);
+  font-size: 56px;
+  font-weight: 700;
+  color: rgba(255, 107, 91, 0.25);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.service-card h3 {
+  font-family: var(--display);
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--creme);
+}
+
+.service-card h3 em {
+  font-style: italic;
+  color: var(--corail);
+  font-weight: 400;
+}
+
+.service-card p {
+  color: var(--peche);
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.service-features {
+  list-style: none;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+
+.service-features li {
+  font-size: 13px;
+  color: var(--creme);
+  padding: 6px 0 6px 20px;
+  position: relative;
+}
+
+.service-features li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--corail);
+  font-size: 11px;
+}
+
+/* ============================================================
+   DEMO
+   ============================================================ */
+.demo {
+  background: var(--creme);
+  color: var(--bleu);
+}
+
+.demo-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(26, 43, 74, 0.1);
+  margin-top: 60px;
+  border: 1px solid rgba(26, 43, 74, 0.05);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.demo-preview {
+  min-height: 420px;
+  background: linear-gradient(135deg, #fce4e8 0%, #f5b7c1 100%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.demo-mockup {
+  width: 80%;
+  background: white;
+  border-radius: 12px;
+  padding: 40px 24px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(196, 119, 136, 0.3);
+  position: relative;
+  z-index: 2;
+}
+
+.demo-mockup-script {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 70px;
+  color: #c47788;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.demo-mockup-sub {
+  font-family: var(--display);
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #c47788;
+  font-weight: 500;
+}
+
+.demo-info {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.demo-tag {
+  display: inline-block;
+  background: var(--corail-pale);
+  color: var(--corail);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.demo-info h3 {
+  font-family: var(--display);
+  font-size: 32px;
+  color: var(--bleu);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.demo-info > p {
+  font-size: 15px;
+  color: var(--gris);
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.demo-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 28px;
+  padding: 20px;
+  background: var(--peche-pale);
+  border-radius: 12px;
+}
+
+.demo-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--bleu);
+}
+
+.demo-feature::before {
+  content: '';
+  width: 14px;
+  height: 8px;
+  border: 2px solid var(--corail);
+  border-right: none;
+  border-top: none;
+  transform: rotate(-45deg);
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.demo-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bleu);
+  color: var(--creme);
+  padding: 16px 28px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.demo-cta:hover {
+  background: var(--corail);
+  transform: translateY(-2px);
+}
+
+/* ============================================================
+   PROCESS (4 étapes)
+   ============================================================ */
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.process-step {
+  text-align: center;
+  position: relative;
+}
+
+.process-num-circle {
+  width: 70px;
+  height: 70px;
+  border: 2px solid var(--corail);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  font-family: var(--display);
+  font-size: 26px;
+  color: var(--corail);
+  font-weight: 700;
+  background: var(--bleu-soft);
+  transition: all 0.3s;
+}
+
+.process-step:hover .process-num-circle {
+  background: var(--corail);
+  color: white;
+}
+
+.process-step h3 {
+  font-family: var(--display);
+  font-size: 20px;
+  color: var(--creme);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.process-step p {
+  color: var(--peche);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   PRICING (claire)
+   ============================================================ */
+.pricing {
+  background: var(--lavande-pale);
+  color: var(--bleu);
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.price-card {
+  background: white;
+  border: 1px solid rgba(26, 43, 74, 0.08);
+  border-radius: 20px;
+  padding: 44px 32px;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.price-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--corail);
+}
+
+.price-card.featured {
+  background: var(--bleu);
+  color: var(--creme);
+  border-color: var(--corail);
+  box-shadow: 0 20px 60px rgba(26, 43, 74, 0.25);
+}
+
+.price-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--corail);
+  color: white;
+  padding: 6px 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.price-tier {
+  font-family: var(--display);
+  font-size: 13px;
+  color: var(--corail);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.price-name {
+  font-family: var(--display);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.price-amount {
+  font-family: var(--display);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 24px 0 8px;
+}
+
+.price-amount .currency {
+  color: var(--corail);
+  font-size: 28px;
+  vertical-align: top;
+  margin-right: 4px;
+}
+
+.price-period {
+  font-size: 12px;
+  color: var(--gris);
+  margin-bottom: 28px;
+}
+
+.price-card.featured .price-period {
+  color: var(--peche);
+}
+
+.price-period strong {
+  color: var(--corail);
+  font-weight: 600;
+}
+
+.price-features {
+  list-style: none;
+  margin: 28px 0;
+  border-top: 1px solid rgba(26, 43, 74, 0.1);
+  padding-top: 24px;
+}
+
+.price-card.featured .price-features {
+  border-top-color: var(--line);
+}
+
+.price-features li {
+  padding: 10px 0 10px 28px;
+  position: relative;
+  font-size: 14px;
+}
+
+.price-features li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  width: 14px;
+  height: 8px;
+  border: 2px solid var(--corail);
+  border-right: none;
+  border-top: none;
+  transform: rotate(-45deg);
+}
+
+.price-cta {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  background: transparent;
+  border: 1px solid var(--corail);
+  color: var(--corail);
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-family: var(--sans);
+}
+
+.price-card.featured .price-cta {
+  background: var(--corail);
+  color: white;
+}
+
+.price-cta:hover {
+  background: var(--corail);
+  color: white;
+}
+
+/* ============================================================
+   FAQ
+   ============================================================ */
+.faq {
+  background: var(--bleu-deep);
+}
+
+.faq-grid {
+  max-width: 900px;
+  margin: 60px auto 0;
+}
+
+.faq-item {
+  background: var(--bleu-soft);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.faq-question {
+  padding: 20px 28px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: inherit;
+  color: var(--creme);
+}
+
+.faq-question h3 {
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--creme);
+}
+
+.faq-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 107, 91, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s;
+  font-size: 18px;
+  color: var(--corail);
+  line-height: 1;
+}
+
+.faq-item.open .faq-icon {
+  background: var(--corail);
+  color: white;
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 400px;
+}
+
+.faq-answer-inner {
+  padding: 0 28px 24px;
+  color: var(--peche);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+.contact {
+  padding: 100px 48px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+}
+
+.contact-info h2 {
+  font-family: var(--display);
+  font-size: clamp(36px, 5vw, 56px);
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.contact-info h2 .gradient {
+  background: linear-gradient(135deg, var(--corail) 0%, var(--corail-soft) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.contact-info > p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--peche);
+  margin-bottom: 32px;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--creme);
+  font-size: 15px;
+}
+
+.contact-list li:last-child {
+  border: none;
+}
+
+.contact-list a {
+  color: var(--creme);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-list a:hover {
+  color: var(--corail);
+}
+
+.contact-icon {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 107, 91, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+  color: var(--corail);
+}
+
+.contact-form {
+  background: var(--bleu-soft);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 36px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--corail);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--bleu);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--creme);
+  font-family: var(--sans);
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--corail);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 212, 201, 0.4);
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-submit {
+  width: 100%;
+  background: var(--corail);
+  color: white;
+  border: none;
+  padding: 18px;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 8px;
+  box-shadow: 0 4px 24px rgba(255, 107, 91, 0.3);
+}
+
+.form-submit:hover {
+  background: var(--corail-soft);
+  transform: translateY(-2px);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  background: var(--bleu-deep);
+  padding: 80px 48px 32px;
+  border-top: 1px solid var(--line);
+}
+
+.footer-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.footer-brand .nav-logo-text {
+  font-size: 26px;
+}
+
+.footer-tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--peche);
+  font-size: 15px;
+  max-width: 320px;
+  margin-top: 16px;
+  line-height: 1.5;
+}
+
+.footer-col h4 {
+  font-size: 11px;
+  color: var(--corail);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul a {
+  color: var(--peche);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-col ul a:hover {
+  color: var(--corail);
+}
+
+.footer-bottom {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--peche);
+}
+
+/* ============================================================
+   ANIMATIONS REVEAL
+   ============================================================ */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================================
+   TOAST NOTIFICATION
+   ============================================================ */
+@keyframes slideIn {
+  from { transform: translateX(400px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOut {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(400px); opacity: 0; }
+}
+
+/* ============================================================
+   RESPONSIVE MOBILE (FIX overflow + menu)
+   ============================================================ */
+@media (max-width: 968px) {
+  .nav-bar,
+  .nav-bar.scrolled {
+    padding: 14px 20px;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-menu.mobile-open {
+    display: flex;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: var(--bleu-deep);
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 20px;
+    border-top: 1px solid var(--line);
+    z-index: 999;
+    height: calc(100vh - 64px);
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .nav-menu.mobile-open li {
+    width: 100%;
+  }
+  
+  .nav-menu.mobile-open a {
+    font-size: 18px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+    width: 100%;
+    display: block;
+  }
+  
+  .nav-cta {
+    display: none;
+  }
+  
+  .nav-burger {
+    display: flex;
+  }
+  
+  .nav-burger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .nav-burger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .nav-burger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  .hero {
+    padding: 100px 20px 60px;
+  }
+  
+  .section,
+  .contact {
+    padding: 70px 20px;
+  }
+  
+  .footer {
+    padding: 60px 20px 24px;
+  }
+  
+  .about-grid,
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  
+  .services-grid,
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .demo-card {
+    grid-template-columns: 1fr;
+  }
+  
+  .demo-preview {
+    min-height: 280px;
+  }
+  
+  .demo-info {
+    padding: 36px 24px;
+  }
+  
+  .demo-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .process-steps {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .trust-items {
+    gap: 12px;
+    font-size: 15px;
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+  }
+  
+  .btn-primary,
+  .btn-ghost {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav class="nav-bar" id="navBar">
+  <a href="#top" class="nav-logo" onclick="scrollToTop(event)">
+    <div class="nav-logo-symbol">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="46" fill="none" stroke="#FF6B5B" stroke-width="1.5" opacity="0.3"/>
+        <rect x="22" y="22" width="56" height="56" rx="14" fill="none" stroke="#FF6B5B" stroke-width="3"/>
+        <line x1="22" y1="50" x2="78" y2="50" stroke="#FF6B5B" stroke-width="2.5"/>
+        <line x1="50" y1="22" x2="50" y2="78" stroke="#FF6B5B" stroke-width="2.5"/>
+        <circle cx="50" cy="50" r="6" fill="#FF6B5B"/>
+      </svg>
+    </div>
+    <span class="nav-logo-text"><span class="ij">IJ</span> Genesys</span>
+  </a>
+  
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="#about" onclick="scrollToSection(event, 'about')">À propos</a></li>
+    <li><a href="#services" onclick="scrollToSection(event, 'services')">Services</a></li>
+    <li><a href="#demo" onclick="scrollToSection(event, 'demo')">Démo</a></li>
+    <li><a href="#pricing" onclick="scrollToSection(event, 'pricing')">Tarifs</a></li>
+    <li><a href="#faq" onclick="scrollToSection(event, 'faq')">FAQ</a></li>
+  </ul>
+  
+  <a href="#contact" class="nav-cta" onclick="scrollToSection(event, 'contact')">Démarrer →</a>
+  
+  <button class="nav-burger" id="navBurger" aria-label="Menu mobile">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="top">
+  <div class="hero-glow-1"></div>
+  <div class="hero-glow-2"></div>
+  
+  <div class="hero-content">
+    <div class="hero-badge">Studio basé à Paris · Disponible</div>
+    
+    <h1>Sites <span class="gradient">sur-mesure</span><br>pour <em>commerces</em><br>parisiens.</h1>
+    
+    <p class="hero-sub">Création web, SEO local, maintenance. Nous donnons à votre commerce parisien la vitrine numérique qu'il mérite.</p>
+    
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary" onclick="scrollToSection(event, 'contact')">
+        Démarrer un projet
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 8h14M9 2l6 6-6 6"/></svg>
+      </a>
+      <a href="#demo" class="btn-ghost" onclick="scrollToSection(event, 'demo')">Voir notre démo</a>
+    </div>
+    
+    <div class="hero-trust">
+      <p class="trust-label">— Notre approche</p>
+      <div class="trust-items">
+        <span>Design sur-mesure</span>
+        <span>SEO local optimisé</span>
+        <span>Audit gratuit</span>
+        <span>Devis sous 48h</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MARQUEE
+     ============================================================ -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item">Coiffeurs</span>
+    <span class="marquee-item">Restaurateurs</span>
+    <span class="marquee-item">Artisans</span>
+    <span class="marquee-item">Avocats</span>
+    <span class="marquee-item">Cabinets dentaires</span>
+    <span class="marquee-item">Esthéticiennes</span>
+    <span class="marquee-item">Coiffeurs</span>
+    <span class="marquee-item">Restaurateurs</span>
+    <span class="marquee-item">Artisans</span>
+    <span class="marquee-item">Avocats</span>
+    <span class="marquee-item">Cabinets dentaires</span>
+    <span class="marquee-item">Esthéticiennes</span>
+  </div>
+</div>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section class="section about" id="about">
+  <div class="section-container">
+    <div class="about-grid">
+      <div class="reveal">
+        <p class="section-eyebrow">Le studio</p>
+        <h2 class="section-title" style="color: var(--bleu);">Igor & Jules,<br>fondateurs <em>d'IJ</em>.</h2>
+        <div class="about-text" style="margin-top: 32px;">
+          <p>Nous croyons qu'un commerce mérite une vitrine numérique à la hauteur de son savoir-faire.</p>
+          <p>IJ Genesys est un studio digital fondé à Paris en 2026 par Igor et Jules. Notre conviction : les commerçants parisiens méritent mieux que des sites WordPress génériques achetés à 99€ sur des templates.</p>
+          <p>Chaque site web sur-mesure que nous créons est une genèse : une nouvelle origine pour vos clients.</p>
+        </div>
+      </div>
+      <div class="about-visual reveal">
+        <p class="about-visual-eyebrow">— Les fondateurs</p>
+        <div class="founders-grid">
+          <div class="founder">
+            <div class="founder-avatar">I</div>
+            <h3 class="founder-name">Igor</h3>
+            <p class="founder-role">Co-fondateur · Design</p>
+          </div>
+          <div class="founder">
+            <div class="founder-avatar">J</div>
+            <h3 class="founder-name">Jules</h3>
+            <p class="founder-role">Co-fondateur · Dev & SEO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+     ============================================================ -->
+<section class="section" id="services">
+  <div class="section-container">
+    <div class="reveal">
+      <p class="section-eyebrow">Nos services</p>
+      <h2 class="section-title">Trois <span class="gradient">offres</span>,<br>une exigence.</h2>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <h3>Création <em>web</em></h3>
+        <p>Des sites web sur-mesure conçus pour vos clients, optimisés pour la conversion et la performance Google.</p>
+        <ul class="service-features">
+          <li>Design 100% personnalisé</li>
+          <li>Responsive mobile / desktop</li>
+          <li>Réservation en ligne intégrée</li>
+          <li>HTTPS + hébergement inclus</li>
+          <li>Performance Google 95+/100</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">02</div>
+        <h3>SEO <em>local</em></h3>
+        <p>Pour que vos clients vous trouvent en tapant "votre métier + votre quartier" sur Google.</p>
+        <ul class="service-features">
+          <li>Optimisation Google Business</li>
+          <li>Mots-clés locaux ciblés</li>
+          <li>Gestion des avis Google</li>
+          <li>Backlinks de qualité</li>
+          <li>Top 3 Google en 90 jours</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">03</div>
+        <h3>Maintenance <em>continue</em></h3>
+        <p>Votre site reste rapide, sécurisé et à jour pendant que vous vous concentrez sur votre business.</p>
+        <ul class="service-features">
+          <li>Sauvegardes quotidiennes</li>
+          <li>Monitoring 24/7</li>
+          <li>Mises à jour régulières</li>
+          <li>Support email illimité</li>
+          <li>Modifications mensuelles</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     DEMO
+     ============================================================ -->
+<section class="section demo" id="demo">
+  <div class="section-container">
+    <div class="reveal">
+      <p class="section-eyebrow">Notre démonstration</p>
+      <h2 class="section-title" style="color: var(--bleu);">Une démo,<br>un <em>concept</em>.</h2>
+      <p style="font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--gris); max-width: 700px; line-height: 1.5;">Voici un cas concret de ce que nous savons faire. Un beauty bar parisien fictif que nous avons entièrement conçu pour démontrer notre approche.</p>
+    </div>
+
+    <div class="demo-card reveal">
+      <div class="demo-preview">
+        <div class="demo-mockup">
+          <div class="demo-mockup-script">En Vogue</div>
+          <div class="demo-mockup-sub">— Beauty Bar · Paris 14ᵉ</div>
+        </div>
+      </div>
+      <div class="demo-info">
+        <span class="demo-tag">✦ Démo concept</span>
+        <h3>En Vogue Beauty Bar</h3>
+        <p>Un site complet pour un beauty bar parisien fictif : page d'accueil élégante, galerie de réalisations, présentation de l'équipe, et système de réservation en ligne fonctionnel sur 4 étapes.</p>
+
+        <div class="demo-features">
+          <div class="demo-feature">Site complet 11 sections</div>
+          <div class="demo-feature">Réservation 4 étapes</div>
+          <div class="demo-feature">Mobile responsive</div>
+          <div class="demo-feature">SEO local optimisé</div>
+          <div class="demo-feature">Performance 95+/100</div>
+          <div class="demo-feature">Accessible WCAG</div>
+        </div>
+
+        <a href="envogue-demo.html" class="demo-cta">
+          Découvrir la démo
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 8h14M9 2l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROCESS
+     ============================================================ -->
+<section class="section">
+  <div class="section-container">
+    <div class="reveal">
+      <p class="section-eyebrow">Notre process</p>
+      <h2 class="section-title">4 semaines,<br><span class="gradient">tout</span> change.</h2>
+    </div>
+
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="process-num-circle">01</div>
+        <h3>Découverte</h3>
+        <p>Visite, brief, analyse concurrence, mots-clés SEO.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num-circle">02</div>
+        <h3>Création</h3>
+        <p>Maquettes sur-mesure, validation, aller-retours design.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num-circle">03</div>
+        <h3>Développement</h3>
+        <p>Intégration, SEO, fiche Google Business, tests.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="process-num-circle">04</div>
+        <h3>Lancement</h3>
+        <p>Mise en ligne, formation, suivi des performances.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRICING
+     ============================================================ -->
+<section class="section pricing" id="pricing">
+  <div class="section-container">
+    <div class="reveal">
+      <p class="section-eyebrow">Nos tarifs</p>
+      <h2 class="section-title" style="color: var(--bleu);">Trois <span class="gradient">formules</span>,<br>tout inclus.</h2>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="price-card reveal">
+        <div class="price-tier">— Essentielle</div>
+        <h3 class="price-name">Lancement</h3>
+        <div class="price-amount"><span class="currency">€</span>1490</div>
+        <p class="price-period">+ <strong>39€/mois</strong> de maintenance</p>
+        <ul class="price-features">
+          <li>Site 5 pages sur-mesure</li>
+          <li>Design responsive</li>
+          <li>SEO local de base</li>
+          <li>Hébergement inclus</li>
+          <li>Formulaire de contact</li>
+          <li>Livraison 3 semaines</li>
+        </ul>
+        <a href="#contact" class="price-cta" onclick="selectPackage(event, 'essentielle')">Choisir cette formule</a>
+      </div>
+
+      <div class="price-card featured reveal">
+        <div class="price-badge">Le + populaire</div>
+        <div class="price-tier">— Signature</div>
+        <h3 class="price-name">Croissance</h3>
+        <div class="price-amount"><span class="currency">€</span>2490</div>
+        <p class="price-period">+ <strong>59€/mois</strong> de maintenance</p>
+        <ul class="price-features">
+          <li>Site 8 pages sur-mesure</li>
+          <li>Réservation en ligne</li>
+          <li>SEO local avancé</li>
+          <li>Galerie photos pro</li>
+          <li>Google Analytics 4</li>
+          <li>3 articles de blog SEO</li>
+          <li>Livraison 4 semaines</li>
+        </ul>
+        <a href="#contact" class="price-cta" onclick="selectPackage(event, 'signature')">Choisir cette formule</a>
+      </div>
+
+      <div class="price-card reveal">
+        <div class="price-tier">— Excellence</div>
+        <h3 class="price-name">Premium</h3>
+        <div class="price-amount"><span class="currency">€</span>3990</div>
+        <p class="price-period">+ <strong>89€/mois</strong> de maintenance</p>
+        <ul class="price-features">
+          <li>Site illimité sur-mesure</li>
+          <li>Réservation + paiement</li>
+          <li>SEO local complet</li>
+          <li>Identité visuelle (logo)</li>
+          <li>Shooting photo inclus</li>
+          <li>Stratégie Instagram 30j</li>
+          <li>Livraison 6 semaines</li>
+        </ul>
+        <a href="#contact" class="price-cta" onclick="selectPackage(event, 'excellence')">Choisir cette formule</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="section faq" id="faq">
+  <div class="section-container">
+    <div class="reveal" style="text-align: center;">
+      <p class="section-eyebrow" style="justify-content: center;">Questions fréquentes</p>
+      <h2 class="section-title">Vos <span class="gradient">questions</span>,<br>nos réponses.</h2>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq-item open">
+        <button class="faq-question">
+          <h3>Combien coûte un site web pour mon commerce ?</h3>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Nos formules vont de <strong>1490€ à 3990€</strong>, plus une maintenance mensuelle entre 39€ et 89€. Aucun frais caché : hébergement, nom de domaine première année, formation et suivi sont inclus dans tous nos packs.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <h3>En combien de temps mon site sera-t-il en ligne ?</h3>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Entre <strong>3 et 6 semaines</strong> selon la formule choisie. Essentielle en 3 semaines, Signature en 4 semaines, Excellence en 6 semaines (avec shooting photo et identité visuelle).</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <h3>Pourquoi pas WordPress ou Wix ?</h3>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Nous créons des <strong>sites en HTML/CSS/JavaScript sur-mesure</strong>, plus rapides, plus sécurisés, et mieux référencés que les plateformes templates. Pas de plugins à mettre à jour, pas de risque de piratage, performance Google 95+/100 garantie.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <h3>Que se passe-t-il si je veux modifier le site ?</h3>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Votre forfait <strong>maintenance</strong> inclut une modification mensuelle gratuite. Pour des modifications plus importantes, nous établissons un devis transparent. Vous restez propriétaire de votre site à 100%.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <h3>Le SEO local est-il garanti ?</h3>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Nous garantissons un site <strong>techniquement parfait pour le SEO</strong>. Pour les positions sur Google, nous visons le <strong>top 3 sur vos requêtes locales en 90 jours</strong>, avec un suivi mensuel transparent.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <h3>Comment se passe le paiement ?</h3>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner"><strong>40% à la signature</strong> du devis pour démarrer le projet, <strong>60% à la livraison</strong> du site. Possibilité d'étaler en 3 fois sans frais sur demande.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section class="contact" id="contact">
+  <div class="contact-content">
+    <div class="contact-info reveal">
+      <p class="section-eyebrow">— Contact</p>
+      <h2>Démarrons<br>votre <span class="gradient">projet</span>.</h2>
+      <p>Audit gratuit · Devis sous 48h · Aucun engagement.</p>
+
+      <ul class="contact-list">
+        <li>
+          <div class="contact-icon">✉</div>
+          <a href="mailto:contact@ijgenesys.com">contact@ijgenesys.com</a>
+        </li>
+        <li>
+          <div class="contact-icon">☎</div>
+          <a href="tel:+33647738403">06 47 73 84 03</a>
+        </li>
+        <li>
+          <div class="contact-icon">📍</div>
+          <span>Paris, France</span>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form reveal" onsubmit="submitForm(event)">
+      <div class="form-group">
+        <label for="name">Votre nom</label>
+        <input type="text" id="name" name="name" placeholder="Igor Dupont" required>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="vous@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Téléphone</label>
+          <input type="tel" id="phone" name="phone" placeholder="06 47 73 84 03">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="business">Votre commerce</label>
+        <input type="text" id="business" name="business" placeholder="Ex: Salon de coiffure, Restaurant...">
+      </div>
+      <div class="form-group">
+        <label for="package">Formule souhaitée</label>
+        <select id="package" name="package">
+          <option value="">À définir ensemble</option>
+          <option value="essentielle">Essentielle (1490€)</option>
+          <option value="signature">Signature (2490€)</option>
+          <option value="excellence">Excellence (3990€)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Votre projet</label>
+        <textarea id="message" name="message" placeholder="Parlez-nous de votre commerce et de vos objectifs..."></textarea>
+      </div>
+      <button type="submit" class="form-submit">Envoyer ma demande →</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-brand">
+      <a href="#top" class="nav-logo" onclick="scrollToTop(event)">
+        <div class="nav-logo-symbol">
+          <svg viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="46" fill="none" stroke="#FF6B5B" stroke-width="1.5" opacity="0.3"/>
+            <rect x="22" y="22" width="56" height="56" rx="14" fill="none" stroke="#FF6B5B" stroke-width="3"/>
+            <line x1="22" y1="50" x2="78" y2="50" stroke="#FF6B5B" stroke-width="2.5"/>
+            <line x1="50" y1="22" x2="50" y2="78" stroke="#FF6B5B" stroke-width="2.5"/>
+            <circle cx="50" cy="50" r="6" fill="#FF6B5B"/>
+          </svg>
+        </div>
+        <span class="nav-logo-text"><span class="ij">IJ</span> Genesys</span>
+      </a>
+      <p class="footer-tagline">Studio digital pour commerces parisiens. Création de sites web sur-mesure, SEO local, maintenance.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Studio</h4>
+      <ul>
+        <li><a href="#about" onclick="scrollToSection(event, 'about')">À propos</a></li>
+        <li><a href="#services" onclick="scrollToSection(event, 'services')">Services</a></li>
+        <li><a href="#demo" onclick="scrollToSection(event, 'demo')">Démo</a></li>
+        <li><a href="#pricing" onclick="scrollToSection(event, 'pricing')">Tarifs</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:contact@ijgenesys.com">contact@ijgenesys.com</a></li>
+        <li><a href="tel:+33647738403">06 47 73 84 03</a></li>
+        <li>Paris, France</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Légal</h4>
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Confidentialité</a></li>
+        <li><a href="#">CGV</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year">2026</span> IJ Genesys · Igor & Jules</span>
+    <span>Site créé avec ✦ par IJ Genesys</span>
+  </div>
+</footer>
+
+<!-- ============================================================
+     JAVASCRIPT — Toutes les interactions
+     ============================================================ -->
+<script>
+// ============================================================
+// 1. SCROLL TO TOP (logo)
+// ============================================================
+function scrollToTop(e) {
+  if (e) e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  closeMobileMenu();
+}
+
+// ============================================================
+// 2. SCROLL TO SECTION (avec offset nav)
+// ============================================================
+function scrollToSection(e, id) {
+  if (e) e.preventDefault();
+  const target = document.getElementById(id);
+  if (target) {
+    const navHeight = 70;
+    const top = target.getBoundingClientRect().top + window.scrollY - navHeight;
+    window.scrollTo({ top: top, behavior: 'smooth' });
+  }
+  closeMobileMenu();
+}
+
+// ============================================================
+// 3. NAV SCROLLED EFFECT
+// ============================================================
+const navBar = document.getElementById('navBar');
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 50) {
+    navBar.classList.add('scrolled');
+  } else {
+    navBar.classList.remove('scrolled');
+  }
+});
+
+// ============================================================
+// 4. BURGER MENU MOBILE
+// ============================================================
+const navBurger = document.getElementById('navBurger');
+const navMenu = document.getElementById('navMenu');
+
+function closeMobileMenu() {
+  navMenu.classList.remove('mobile-open');
+  navBurger.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+navBurger.addEventListener('click', function() {
+  const isOpen = navMenu.classList.toggle('mobile-open');
+  navBurger.classList.toggle('active');
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+});
+
+// ============================================================
+// 5. ANIMATIONS REVEAL AU SCROLL
+// ============================================================
+const observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach(function(el) {
+  observer.observe(el);
+});
+
+// ============================================================
+// 6. FAQ TOGGLE
+// ============================================================
+document.querySelectorAll('.faq-question').forEach(function(button) {
+  button.addEventListener('click', function() {
+    const item = this.closest('.faq-item');
+    item.classList.toggle('open');
+  });
+});
+
+// ============================================================
+// 7. SÉLECTION FORMULE TARIF
+// ============================================================
+function selectPackage(e, packageName) {
+  e.preventDefault();
+  scrollToSection(null, 'contact');
+  
+  setTimeout(function() {
+    const select = document.getElementById('package');
+    if (select) {
+      select.value = packageName;
+      select.style.borderColor = '#FF6B5B';
+      
+      const labels = {
+        essentielle: 'Essentielle',
+        signature: 'Signature',
+        excellence: 'Excellence'
+      };
+      
+      showToast('✦ Formule ' + labels[packageName] + ' sélectionnée');
+      
+      const firstInput = document.getElementById('name');
+      if (firstInput && !firstInput.value) firstInput.focus();
+    }
+  }, 800);
+}
+
+// ============================================================
+// 8. TOAST NOTIFICATION
+// ============================================================
+function showToast(message) {
+  const existing = document.querySelector('.toast');
+  if (existing) existing.remove();
+  
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = message;
+  toast.style.cssText = 'position:fixed;bottom:32px;right:32px;background:#FF6B5B;color:white;padding:16px 24px;border-radius:12px;font-size:14px;font-weight:500;box-shadow:0 8px 32px rgba(255,107,91,0.4);z-index:10000;animation:slideIn 0.4s ease;max-width:320px;font-family:Inter,sans-serif;';
+  document.body.appendChild(toast);
+  
+  setTimeout(function() {
+    toast.style.animation = 'slideOut 0.4s ease forwards';
+    setTimeout(function() { toast.remove(); }, 400);
+  }, 4000);
+}
+
+// ============================================================
+// 9. FORMULAIRE DE CONTACT
+// ============================================================
+function submitForm(e) {
+  e.preventDefault();
+  const data = new FormData(e.target);
+  const name = data.get('name');
+  const email = data.get('email');
+  const phone = data.get('phone') || 'Non renseigné';
+  const business = data.get('business') || 'votre commerce';
+  const packageVal = data.get('package');
+  const message = data.get('message') || 'À discuter ensemble';
+
+  const packageLabels = {
+    'essentielle': 'Essentielle (1490€)',
+    'signature': 'Signature (2490€)',
+    'excellence': 'Excellence (3990€)',
+    '': 'À définir ensemble'
+  };
+
+  const subject = encodeURIComponent('Nouveau projet : ' + business);
+  const body = encodeURIComponent(
+    'Bonjour Igor & Jules,\n\n' +
+    'Je m\'appelle ' + name + ' et je souhaite discuter d\'un projet pour ' + business + '.\n\n' +
+    'Email : ' + email + '\n' +
+    'Téléphone : ' + phone + '\n' +
+    'Formule envisagée : ' + (packageLabels[packageVal] || packageVal) + '\n\n' +
+    'Mon projet :\n' + message + '\n\n' +
+    'À bientôt,\n' + name
+  );
+
+  window.location.href = 'mailto:contact@ijgenesys.com?subject=' + subject + '&body=' + body;
+  showToast('✓ Email pré-rempli ouvert dans votre client mail');
+
+  setTimeout(function() {
+    e.target.reset();
+    document.getElementById('package').style.borderColor = '';
+  }, 1500);
+}
+
+// ============================================================
+// 10. ANNÉE DYNAMIQUE
+// ============================================================
+document.getElementById('year').textContent = new Date().getFullYear();
+
+console.log('%c IJ Genesys ', 'background:#1A2B4A;color:#FF6B5B;font-size:16px;font-weight:bold;padding:8px 16px;border-radius:4px');
+console.log('%c Site créé avec ✦ par IJ Genesys ', 'color:#1A2B4A;font-size:12px');
+</script>
+
+</body>
+</html>

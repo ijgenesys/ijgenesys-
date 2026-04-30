@@ -1,0 +1,17 @@
+/* TEAM */
+
+Co-fondateur : Igor
+Rôle : Design & Stratégie
+Localisation : Paris, France
+
+Co-fondateur : Jules
+Rôle : Développement & SEO
+Localisation : Paris, France
+
+
+/* SITE */
+
+Last update : 2026/04/30
+Standards : HTML5, CSS3, ES6
+Components : Schema.org, Open Graph
+Software : VSCode, Figma, GitHub
