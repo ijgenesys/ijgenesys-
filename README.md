@@ -1,57 +1,37 @@
-# 🎨 IJ Genesys — Studio digital
+# 🎨 IJ Genesys — Studio digital Paris
 
 > Site web officiel d'IJ Genesys, studio digital basé à Paris fondé par Igor et Jules en 2026.
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-FF6B5B?style=flat-square)](https://ijgenesys.github.io/ijgenesys)
-[![Made with HTML](https://img.shields.io/badge/Made%20with-HTML5-1A2B4A?style=flat-square)](https://html.spec.whatwg.org/)
-
 ---
 
-## 🌐 À propos
-
-Studio digital spécialisé dans la **création de sites web sur-mesure pour commerces parisiens**.
-
-**Notre cible :**
-- 🪞 Coiffeurs & instituts de beauté
-- 🍽️ Restaurateurs & traiteurs
-- 🔨 Artisans BTP
-- 🏥 Cabinets médicaux & paramédicaux
-- ⚖️ Avocats & professions libérales
-
----
-
-## 🎨 Identité visuelle
-
-| Élément | Valeur |
-|---|---|
-| Couleur principale | Bleu nuit `#1A2B4A` |
-| Couleur d'accent | Corail `#FF6B5B` |
-| Police titres | Space Grotesk |
-| Police body | Inter |
-
----
-
-## 📂 Structure
+## 📂 Structure du dossier
 
 ```
 ijgenesys/
-├── index.html              # Site principal complet
-├── envogue-demo.html       # Page démo concept
-├── robots.txt              # SEO - instructions Google
-├── sitemap.xml             # SEO - plan du site
-├── humans.txt              # Présentation équipe
-├── .nojekyll               # GitHub Pages config
-└── README.md               # Documentation
+├── index.html                              # Site principal IJ Genesys
+├── demo-envogue-essentielle.html          # Démo formule 1490€
+├── demo-envogue-signature.html            # Démo formule 2490€
+├── demo-envogue-excellence.html           # Démo formule 3990€
+├── robots.txt                              # SEO Google
+├── sitemap.xml                             # Plan du site (4 URLs)
+├── humans.txt                              # Crédits équipe
+├── .nojekyll                               # Config GitHub Pages
+└── README.md                               # Cette doc
 ```
 
 ---
 
-## 🚀 Mise en ligne sur GitHub Pages
+## 🎯 Les 3 démos En Vogue Beauty Bar
 
-1. Créer un repository GitHub appelé `ijgenesys`
-2. Uploader tous les fichiers de ce dossier
-3. Settings > Pages > Source : `main` branch + `/(root)`
-4. ✅ Site en ligne sur `https://[username].github.io/ijgenesys/`
+Chaque formule du site IJ Genesys est illustrée par une vraie démonstration :
+
+| Formule | Prix | Démo |
+|---------|------|------|
+| 🥉 Essentielle | 1490€ | demo-envogue-essentielle.html (5 sections, 3 photos) |
+| 🥈 Signature | 2490€ | demo-envogue-signature.html (8 sections, 11 photos) |
+| 🥇 Excellence | 3990€ | demo-envogue-excellence.html (11 sections, 15 photos) |
+
+Toutes les démos utilisent **les vraies photos du salon En Vogue Beauty Bar** (Paris 14ᵉ).
 
 ---
 
@@ -59,10 +39,17 @@ ijgenesys/
 
 - **Email** : contact@ijgenesys.com
 - **Téléphone** : +33 6 47 73 84 03
-- **Site** : ijgenesys.com (à venir)
+- **Adresse** : Paris, France
 
 ---
 
-© 2026 IJ Genesys · Tous droits réservés.
+## 🚀 Mise en ligne sur GitHub Pages
 
-> *« Votre site, notre genèse. »*
+1. Settings → Pages
+2. Branch : `main` + `/(root)`
+3. Save
+4. Site en ligne en 2-3 min sur `https://[username].github.io/ijgenesys/`
+
+---
+
+© 2026 IJ Genesys · « Votre site, notre genèse. »
